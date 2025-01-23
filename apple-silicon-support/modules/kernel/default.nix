@@ -55,7 +55,7 @@
     ];
 
     boot.kernelParams = [
-      "earlycon
+      "earlycon"
       "console=tty0"
       "boot.shell_on_fail"
       # Apple's SSDs are slow (~dozens of ms) at processing flush requests which
